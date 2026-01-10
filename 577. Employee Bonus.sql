@@ -5,7 +5,7 @@ using (empId)
 WHERE b.bonus IS NULL OR b.bonus < 1000;
 
 
-======= OR ========
+-- ======= OR ========
 select employee.name , bonus.bonus 
 from employee
 left join bonus 

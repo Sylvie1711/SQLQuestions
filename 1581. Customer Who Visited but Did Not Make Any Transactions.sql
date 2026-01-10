@@ -30,11 +30,11 @@ COUNT(column) → counts non-NULL values in that column
 we couldve also used COUNT(v.visit_id)
 
 
-summary : 
-GROUP BY → “make piles”
+-- summary : 
+-- GROUP BY → “make piles”
 
-COUNT → “count how many in each pile”
+-- COUNT → “count how many in each pile”
 
-COUNT(*) → “count rows in each pile”
+-- COUNT(*) → “count rows in each pile”
 
-COUNT(column) → “count non-NULL values in that column”
+-- COUNT(column) → “count non-NULL values in that column”
